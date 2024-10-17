@@ -7,18 +7,18 @@ int main()
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
 	int n;
-	cout << "Введіть цифру від 1 - 8:" << endl;
+	cout << "Введіть порядок планети:" << endl;
 	cin >> n;
 	switch (n)
 	{
-	case 1: cout << "Один" << endl; break;
-	case 2: cout << "Два" << endl; break;
-	case 3: cout << "Три" << endl; break;
-	case 4: cout << "Чотири" << endl; break;
-	case 5: cout << "П'ять" << endl; break;
-	case 6: cout << "Шість" << endl; break;
-	case 7: cout << "Сім" << endl; break;
-	case 8: cout << "Вісім" << endl; break;
-	default: cout << "Число не входить до інтервалу" << endl; break;
+	case 1: cout << "Меркурій" << endl; break;
+	case 2: cout << "Венера" << endl; break;
+	case 3: cout << "Земля" << endl; break;
+	case 4: cout << "Марс" << endl; break;
+	case 5: cout << "Юпітер" << endl; break;
+	case 6: cout << "Сатурн" << endl; break;
+	case 7: cout << "Уран" << endl; break;
+	case 8: cout << "Нептун" << endl; break;
+	default: cout << "Такої планети не існує" << endl; break;
 	}
 }
